@@ -2,24 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false  # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Telecommunications Engineer based in Madrid, currently advancing my expertise through a dual master’s program in Machine Learning for Health and Telecommunications. With a strong foundation in AI and machine learning, I am passionate about exploring how these technologies can be applied across various industries to drive meaningful change. My studies have given me hands-on experience in developing intelligent systems for healthcare, a sector I believe holds immense potential for innovation through AI. I am especially excited by the prospect of using machine learning to tackle real-world challenges, where data-driven solutions can significantly impact people’s lives.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Alongside my focus on AI, I maintain a growing interest in integrated photonics, which combines my enthusiasm for physics with cutting-edge technology. While my primary goal is to deepen my skills in artificial intelligence, I find that photonics and its applications also inspire new perspectives and ideas in my work. I look forward to applying the insights and technical skills I am developing to impactful projects in the tech industry, where I hope to contribute to meaningful advancements across fields.
