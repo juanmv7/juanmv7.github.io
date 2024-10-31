@@ -15,7 +15,7 @@ Este proyecto analiza el rendimiento y la viabilidad de redes TSN asíncronas pa
         {% include figure.liquid loading="eager" path="assets/img/foto_TSN.png" title="TSN architecture Model" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/traffic_scheduler.png" title="TSN traffic scheduler" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/traffic_scheduler2.png" title="TSN traffic scheduler" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5gacia.png" title="TSN  Control Gate" class="img-fluid rounded z-depth-1" %}
@@ -29,10 +29,10 @@ de tráfico 7 sólo en T0 y todas las demás colas de tráfico en T1.
 Además del desarrollo del simulador, se implementaron estrategias para optimizar la asignación de recursos en redes industriales, garantizando así que el tráfico crítico mantenga una latencia mínima y un rendimiento óptimo.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-md-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/PorPCP_Prior.jpg" title="Análisis por PCP" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-md-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/ProFlujos_Prior.jpg" title="Análisis por Flujos" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
