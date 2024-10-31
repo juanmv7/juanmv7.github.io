@@ -120,6 +120,11 @@
       "fluency": "Advanced, C1 level"
     }
   ],
+  "hobbies": [
+    "Playing the guitar",
+    "Skiing",
+    "Reading about cosmology, physics, history, and fantasy literature"
+  ],
   "interests": [
     {
       "name": "Telecommunications and AI Applications",
@@ -134,10 +139,5 @@
         "High-Tech Photonics"
       ]
     }
-  ],
-  "hobbies": [
-    "Playing the guitar",
-    "Skiing",
-    "Reading about cosmology, physics, history, and fantasy literature"
   ]
 }
