@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Una colección de proyectos que destacan mi enfoque en IA, machine learning y telecomunicaciones.
 nav: true
 nav_order: 3
-display_categories: [work]
+display_categories: [Machine Learning, Telecommunications, Photonics]
 horizontal: false
 ---
 

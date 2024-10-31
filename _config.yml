@@ -14,7 +14,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon2.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://juanmv7.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -249,6 +249,14 @@ exclude:
   - _pages/publications.md
   - _pages/repositories.md
   - _pages/teaching.md
+  - _projects/2_project.md
+  - _projects/3_project.md
+  - _projects/4_project.md
+  - _projects/5_project.md
+  - _projects/6_project.md
+  - _projects/7_project.md
+  - _projects/8_project.md
+  - _projects/9_project.md
 keep_files:
   - CNAME
   - .nojekyll
