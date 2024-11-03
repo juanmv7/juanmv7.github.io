@@ -1,14 +1,16 @@
 ---
 layout: page
-title: Análisis de Utilización en Redes TSN Asíncronas para Industria 4.0
-description: Evaluación del rendimiento de redes TSN en la Industria 4.0 mediante análisis de utilización máxima para tráfico sensible al retardo.
-img: assets/img/tsn_pilares.png  # Cambia a la ruta de la imagen de fondo que elijas
+title: Utilization Analysis in Asynchronous TSN Networks for Industry 4.0
+description: Evaluation of TSN network performance in Industry 4.0 through maximum utilization analysis for delay-sensitive traffic.
+img: assets/img/tsn_pilares.png  # Change to your selected background image path
 importance: 1
 category: Telecommunications
 related_publications: false
+df_link: /assets/pdf/NLP_project.pdf 
 ---
+## Abstract
 
-Este proyecto analiza el rendimiento y la viabilidad de redes TSN asíncronas para su implementación en Industria 4.0. A través de un simulador, evalúa la capacidad de estas redes para cumplir con los estrictos requisitos de latencia y rendimiento que exige la industria moderna.
+This project analyzes the performance and feasibility of asynchronous TSN networks for their implementation in Industry 4.0. Through a simulator, it evaluates the capacity of these networks to meet the strict latency and performance requirements demanded by modern industry.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -18,37 +20,42 @@ Este proyecto analiza el rendimiento y la viabilidad de redes TSN asíncronas pa
         {% include figure.liquid loading="eager" path="assets/img/traffic_scheduler2.png" title="TSN traffic scheduler" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5gacia.png" title="TSN  Control Gate" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/5gacia.png" title="TSN Control Gate" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    A la izquierda, modelo completamente centralizado TSN; en el centro, red esquematizada con planificación del tráfico; a la derecha, lista de control de puertas que permite la transmisión de la cola
-de tráfico 7 sólo en T0 y todas las demás colas de tráfico en T1.
+    On the left, a fully centralized TSN model; in the center, a network diagram with traffic scheduling; on the right, a control gate list allowing transmission of traffic queue 7 only at T0, and all other traffic queues at T1.
 </div>
 
-Además del desarrollo del simulador, se implementaron estrategias para optimizar la asignación de recursos en redes industriales, garantizando así que el tráfico crítico mantenga una latencia mínima y un rendimiento óptimo.
+In addition to the simulator development, strategies were implemented to optimize resource allocation in industrial networks, thus ensuring that critical traffic maintains minimal latency and optimal performance.
 
 <div class="row justify-content-sm-center">
     <div class="col-md-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/PorPCP_Prior.jpg" title="Análisis por PCP" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/PorPCP_Prior.jpg" title="Analysis by PCP" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-md-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ProFlujos_Prior.jpg" title="Análisis por Flujos" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/ProFlujos_Prior.jpg" title="Flow-Based Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Comparativa entre el análisis por clases de tráfico (PCP) y por flujos individuales. La metodología PCP agrupa flujos de tráfico con características similares, mientras que el análisis por flujos individuales permite una diferenciación más precisa, aunque a costa de un mayor tiempo de ejecución.
+    Comparison between traffic class-based (PCP) and individual flow analysis. The PCP methodology groups traffic flows with similar characteristics, while individual flow analysis allows for more precise differentiation, albeit with a longer execution time.
 </div>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Excel_Ut.png" title="Utilización máxima del ATS" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Excel_Ut.png" title="ATS Maximum Utilization" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Impacto del porcentaje de tráfico Cyclic-Synchronous en la utilización del ATS. A medida que aumenta el porcentaje de este tipo de tráfico, la utilización máxima se reduce, especialmente en configuraciones que manejan múltiples ATS, debido a los mayores requisitos de retardo de estos flujos.
+    Impact of the Cyclic-Synchronous traffic percentage on ATS utilization. As the percentage of this type of traffic increases, maximum utilization decreases, especially in configurations managing multiple ATSs, due to the higher delay requirements of these flows.
 </div>
 
-Dividir y tratar cada flujo de forma individual en el algoritmo permite una mayor utilización del ATS en comparación con el enfoque de macro-flujos, aunque a costa de un tiempo de ejecución más elevado. Sin embargo, al aumentar el tráfico con altos requisitos de retardo, como el Cyclic-Synchronous, la utilización máxima se reduce, ya que el algoritmo encuentra dificultades para gestionar un volumen elevado de flujos en estas condiciones.
+Dividing and treating each flow individually in the algorithm allows for higher ATS utilization compared to the macro-flow approach, albeit with a higher execution time. However, as traffic with high delay requirements, like Cyclic-Synchronous traffic, increases, the maximum utilization decreases since the algorithm struggles to manage a high volume of flows under these conditions.
 
-Este proyecto muestra cómo las redes TSN pueden adaptarse a las exigencias de la Industria 4.0, haciendo posible una infraestructura de comunicación robusta y escalable para futuras aplicaciones industriales.
+This project demonstrates how TSN networks can adapt to the demands of Industry 4.0, enabling a robust and scalable communication infrastructure for future industrial applications.
+
+
+## Full Report
+You can download the complete report document via the following link:
+
+[Download Full Report PDF]({{ page.pdf_link }})
