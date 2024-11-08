@@ -54,7 +54,7 @@ Adapt or retrain classification algorithms based on the new data categories. For
 This project exemplifies the integration of data preprocessing, vectorization, and classification to achieve efficient categorization of large-scale textual data.
 
 ---
-This project was carried out in collaboration with [Elena Almagro](https://www.linkedin.com/in/elena-almagro-azor-a06942217/) and [Mario Golbano](https://www.linkedin.com/in/juan-munoz-villalon/).
+This project was carried out in collaboration with [Elena Almagro](https://www.linkedin.com/in/elena-almagro-azor-a06942217/) and [Mario Golbano](https://www.linkedin.com/in/mario-golbano-corzo/).
 
 ---
 ## Full Report
