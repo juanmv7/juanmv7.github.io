@@ -10,10 +10,9 @@ pdf_link: /assets/pdf/UBC_ELEC413_JuanMunoz.pdf  # Place the report PDF in asset
 ---
 
 ## Abstract
-This is a project in which I design different fabry perot cavities for a central wavelength of 1310 nm using silicon Bragg grating, couplers and waveguides. These
-designs will be fabricated and measurements will be obtained which we will analyse with the simulations carried out.
+This project involves the design of Fabry-Perot cavities for a central wavelength of 1310 nm using silicon Bragg gratings, couplers, and waveguides. These designs will be fabricated, and measurements will be analyzed and compared with the carried-out simulations.
 
-### Project Objectivesx
+### Project Objectives
 - **Optimize Fabry-Perot cavity designs** for effective laser performance at 1310 nm.
 - **Compare simulation data** with experimental results to understand deviations.
 - **Evaluate the effects of manufacturing variances**, such as deviations in Bragg period, on wavelength accuracy.
@@ -22,9 +21,8 @@ designs will be fabricated and measurements will be obtained which we will analy
 
 ## Design and Simulation Process
 
-### 1. Waveguide Design and Effective Index Calculation
-Using Lumerical’s simulation tools, waveguides were designed to operate at a wavelength of 1310 nm. The dimensions were optimized to achieve the desired effective index (thickness of 220 nm and a width of 350 nm.), essential for constructing Fabry-Perot resonators. A frequency sweep simulation was calculated in order to obtain the polynomial expression for the
-effective index that we would use later in the TMM. 
+#### 1. Waveguide Design and Effective Index Calculation
+Using Lumerical’s simulation tools, waveguides were designed to operate at a wavelength of 1310 nm. The dimensions were optimized to achieve the desired effective index (thickness of 220 nm and a width of 350 nm), essential for constructing Fabry-Perot resonators. A frequency sweep simulation was calculated to obtain the polynomial expression for the effective index used later in the TMM.
 
 #### Figure 1: Frequency Sweep Simulation
 <div class="row justify-content-sm-center">
@@ -36,24 +34,21 @@ effective index that we would use later in the TMM.
     Frequency sweep simulation of the waveguide design, illustrating the effective index at the target wavelength of 1310 nm.
 </div>
 
-### 2. Calculation Results
+#### 2. Calculation Results
 From these results, we can obtain:
 
 - **Effective Index**: 2.433
 - **Bragg Period**:
-  \[
+  $$
   \lambda_B = \frac{\lambda_B}{2 \cdot n_f} = 269.21 \, \text{nm}
-  \]
+  $$
 - **Effective Indices**: 2.433, −1.577, −0.04567
 
-
-
-
-### 3. Bragg Grating Waveguide Simulation
+#### 3. Bragg Grating Waveguide Simulation
 
 The next step involves simulating a unit cell of a Bragg grating waveguide using Lumerical FDTD. This simulation provides the kappa parameter by adjusting the corrugation width (ΔW) to achieve the desired kappa and a central wavelength close to 1310 nm.
 
-#### Simulation Parameters
+##### Simulation Parameters
 
 | ΔW (nm) | Kappa | Central Wavelength (nm) | Bandwidth (nm) | Δn      |
 |---------|-------|-------------------------|----------------|---------|
@@ -64,15 +59,15 @@ The next step involves simulating a unit cell of a Bragg grating waveguide using
 
 One important parameter derived from kappa is Δn, which will be used in the Transfer Matrix Method later:
 
-\[
+$$
 \Delta n = \frac{k \cdot \lambda_B}{2}
-\]
+$$
 
 These results provide key insights into the Bragg grating performance for Fabry-Perot cavities targeting the 1310 nm wavelength.
 
 ---
 
-### 4. Manufacturing Error and Bragg Period Adjustment
+#### 4. Manufacturing Error and Bragg Period Adjustment
 
 In all cases, the initial design used a Bragg period of 269 nm. However, due to a manufacturing error, the actual Bragg period turned out to be smaller than intended. This deviation was identified in results provided by Mustafa Hammood, a graduate student under Professor Jaeger, who demonstrated that this error causes a shift in the wavelength to smaller values, as shown in Figure 2.
 
@@ -88,11 +83,11 @@ To prevent the central wavelength from shifting leftward and to maintain the tar
     Mustafa Hammood data: Comparison of Bragg wavelength between simulation and experiment, assuming 215 nm thick silicon.
 </div>
 
-For the designs 1, 3, 5, 6, 7 and 10 I have used a Bragg Period of 276 nm. 
+For the designs 1, 3, 5, 6, 7, and 10, a Bragg Period of 276 nm was used.
 
 ---
 
-### 5. Transfer Matrix Method Analysis
+#### 5. Transfer Matrix Method Analysis
 The TMM was used to simulate cavity resonances and quality factors. Simulations were performed to assess the impact of cavity length, Bragg period, and waveguide geometry on the Fabry-Perot cavity’s optical performance.
 
 ---
@@ -100,15 +95,14 @@ The TMM was used to simulate cavity resonances and quality factors. Simulations 
 ## Experimental Results and Comparison with Simulations
 After designing my models, I performed simulations using my Transfer Matrix Method (TMM) model implemented in Matlab. I then compared these simulations with the actual behavior of the models to assess if my assumptions and simulations align with reality. The Quality Factor for all models is shown in the table in the annex. I focused on studying devices V1, V3, and V8, as they are the most interesting. Most of the other devices did not perform as expected due to measurement or fabrication issues.
 
-
 #### Device V1
-The comparison of simulation and measurements for device V1 can be seen in Figure 3. Both the simulated and measured results show a similar performance around the central wavelength, but there are some variations in power levels across the peaks.
+The comparison of simulation and measurements for device V1 can be seen in Figure 3. Both the simulated and measured results show similar performance around the central wavelength, but there are some variations in power levels across the peaks.
 
 I analyzed the Quality Factor for the central peak (~1309 nm) and obtained similar values for both simulations and measurements. The Quality Factor (Q) is determined by:
 
-\[
+$$
 Q = \frac{\lambda_c}{\Delta \lambda}
-\]
+$$
 
 where Δλ is the 3 dB wavelength width of the peak.
 
@@ -128,7 +122,7 @@ This device has a long cavity length of 304.131 μm, which results in multiple w
 </div>
 
 #### Device V8
-Device V8 experienced a shift in the central wavelength due to an error in the Bragg period (Beause this model uses Bragg period of 264.4 nm, as ). To compensate for this, I reduced the Bragg period in the simulation to 263.4 nm, which allowed the simulated peaks to align better with the measurements. Figure 5 shows the comparison between simulation and measurement after this adjustment.
+Device V8 experienced a shift in the central wavelength due to an error in the Bragg period. To compensate, I reduced the Bragg period in the simulation to 263.4 nm, which allowed the simulated peaks to align better with the measurements. Figure 5 shows the comparison between simulation and measurement after this adjustment.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -137,7 +131,7 @@ Device V8 experienced a shift in the central wavelength due to an error in the B
 </div>
 
 <div class="caption">
-    Fig 3-5: Comparison of simulation and measurements for various device configurations, showing how adjustments in Bragg period and length of the cavity can impact wavelength accuracy and performance.
+    Fig 3-5: Comparison of simulation and measurements for various device configurations, showing how adjustments in Bragg period and cavity length impact wavelength accuracy and performance.
 </div>
 
 #### Curiosity: Examples of Design Failures
@@ -155,7 +149,9 @@ This example underscores the challenges in achieving precise wavelength alignmen
     Fig: Detector responses for design V10, showing the absence of the expected peak at 1310 nm.
 </div>
 
-## Key Findings and Insights
+---
+
+### Key Findings and Insights
 
 - **Accuracy of Simulation Models**: The simulation results aligned closely with experimental data, confirming the reliability of the models.
 - **Impact of Manufacturing Variability**: Even minor deviations in Bragg period significantly affect wavelength precision, underscoring the need for precise manufacturing controls in applications requiring wavelength stability.
@@ -172,15 +168,15 @@ This project was carried out at the University of British Columbia as part of th
 
 ---
 
-## Full Report
+### Full Report
 Download the complete project report:
 
 [Download Full Report PDF]({{ page.pdf_link }})
 
 
-## Annex
+### Annex
 
-### Table 1: Parameters used to create the 10 designs
+#### Table 1: Parameters used to create the 10 designs
 
 | Design | No. of Grating Periods | Δn     | dW (nm) | Length of the cavity in the mid (µm)             |
 |--------|-------------------------|--------|---------|--------------------------------------------------|
@@ -195,7 +191,7 @@ Download the complete project report:
 | 9      | 130                     | 0.08119 | 40      | 34.649                                           |
 | 10     | 100                     | 0.08173 | 45      | 0.1345 (Bragg period/2)                          |
 
-### Table 2: Results from the simulations and the designs
+#### Table 2: Results from the simulations and the designs
 
 | Quality Factor (Simulation) | Quality Factor (Measurements) |
 |-----------------------------|-------------------------------|
@@ -211,4 +207,3 @@ Download the complete project report:
 | 34977                       | -                             |
 
 ---
-        
