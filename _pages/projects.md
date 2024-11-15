@@ -5,7 +5,7 @@ permalink: /projects/
 description: Una colección de proyectos que destacan mi enfoque en IA, machine learning y telecomunicaciones.
 nav: true
 nav_order: 3
-display_categories: [Machine Learning, Telecommunications, Photonics]
+display_categories: [Machine Learning, Photonics, Telecommunications]
 horizontal: false
 ---
 
