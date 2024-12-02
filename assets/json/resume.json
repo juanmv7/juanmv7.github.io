@@ -82,34 +82,28 @@
       "duration": "5 months"
     }
   ],
-  "skills": [
-    {
-      "name": "Technical Skills",
-      "keywords": [
-        "Machine Learning: Predictive modeling, classification, and clustering for healthcare applications.",
-        "Deep Learning: Expertise in Neural Networks for real-world challenges.",
-        "Natural Language Processing: Text analysis, sentiment detection, and language modeling.",
-        "Image Processing: Advanced techniques for image analysis and enhancement.",
-        "Computer Vision: Object detection, recognition, and video processing.",
-        "Signal Processing: Filtering and transformation techniques (FFT, Kalman Filters, Particle Filters).",
-        "Networking Protocols: TCP/IP, SIP, RTP, VoIP; debugging communication protocols.",
-        "Cybersecurity: Secure communication protocols and authentication systems.",
-        "Photonic Integrated Circuits: Simulation of Fabry-Perot cavities (Lumerical, Klayouts).",
-        "Java Programming: Robust applications and secure server-side solutions.",
-        "Programming: MATLAB, Python, C/C++, Java, SQL, JavaScript, Git, Bash."
-      ]
-    },
-    {
-      "name": "Soft Skills",
-      "keywords": [
-        "Problem-Solving",
-        "Collaboration",
-        "Adaptability",
-        "Critical Thinking",
-        "Time Management"
-      ]
-    }
-  ],
+  "skills": {
+    "technicalSkills": [
+      "Machine Learning: Predictive modeling, classification, and clustering for healthcare applications.",
+      "Deep Learning: Expertise in Neural Networks for real-world challenges.",
+      "Natural Language Processing: Text analysis, sentiment detection, and language modeling.",
+      "Image Processing: Advanced techniques for image analysis and enhancement.",
+      "Computer Vision: Object detection, recognition, and video processing.",
+      "Signal Processing: Filtering and transformation techniques (FFT, Kalman Filters, Particle Filters).",
+      "Networking Protocols: TCP/IP, SIP, RTP, VoIP; debugging communication protocols.",
+      "Cybersecurity: Secure communication protocols and authentication systems.",
+      "Photonic Integrated Circuits: Simulation of Fabry-Perot cavities (Lumerical, Klayouts).",
+      "Java Programming: Robust applications and secure server-side solutions.",
+      "Programming: MATLAB, Python, C/C++, Java, SQL, JavaScript, Git, Bash."
+    ],
+    "softSkills": [
+      "Problem-Solving",
+      "Collaboration",
+      "Adaptability",
+      "Critical Thinking",
+      "Time Management"
+    ]
+  },
   "languages": [
     {
       "language": "Spanish",
