@@ -114,9 +114,14 @@
       "fluency": "Advanced (C1 Cambridge Level)"
     }
   ],
-  "hobbies": [
-    "Playing the guitar",
-    "Skiing",
-    "Reading about cosmology, physics, history, and fantasy literature"
+  "interests": [
+    {
+        "name": "Hobbies",
+        "keywords": [
+            "Playing the guitar",
+            "Skiing",
+            "Reading about cosmology, physics, history, and fantasy literature"
+        ]
+    }
   ]
 }

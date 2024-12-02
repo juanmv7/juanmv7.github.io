@@ -56,28 +56,20 @@
         - Developed a JavaScript server in Docker for authentication verification.
 
 - title: Skills
-  type: nested_list
+  type: list
   contents:
-    - title: Technical Skills
-      items:
-        - Machine Learning: Predictive modeling, classification, and clustering for healthcare applications.
-        - Deep Learning: Expertise in Neural Networks for real-world challenges.
-        - Natural Language Processing: Text analysis, sentiment detection, and language modeling.
-        - Image Processing: Advanced techniques for image analysis and enhancement.
-        - Computer Vision: Object detection, recognition, and video processing.
-        - Signal Processing: Filtering and transformation techniques (FFT, Kalman Filters, Particle Filters).
-        - Networking Protocols: TCP/IP, SIP, RTP, VoIP; debugging communication protocols.
-        - Cybersecurity: Secure communication protocols and authentication systems.
-        - Photonic Integrated Circuits: Simulation of Fabry-Perot cavities (Lumerical, Klayouts).
-        - Java Programming: Robust applications and secure server-side solutions.
-        - Programming: MATLAB, Python, C/C++, Java, SQL, JavaScript, Git, Bash.
-    - title: Soft Skills
-      items:
-        - Problem-Solving
-        - Collaboration
-        - Adaptability
-        - Critical Thinking
-        - Time Management
+    - <b>Machine Learning:</b> Predictive modeling, classification, and clustering for healthcare applications.
+    - <b>Deep Learning:</b> Expertise in Neural Networks for real-world challenges.
+    - <b>Natural Language Processing:</b> Text analysis, sentiment detection, and language modeling.
+    - <b>Image Processing:</b> Advanced techniques for image analysis and enhancement.
+    - <b>Computer Vision:</b> Object detection, recognition, and video processing.
+    - <b>Signal Processing:</b> Filtering and transformation techniques (FFT, Kalman Filters, Particle Filters).
+    - <b>Networking Protocols:</b> TCP/IP, SIP, RTP, VoIP; debugging communication protocols.
+    - <b>Cybersecurity:</b> Secure communication protocols and authentication systems.
+    - <b>Photonic Integrated Circuits:</b> Simulation of Fabry-Perot cavities (Lumerical, Klayouts).
+    - <b>Java Programming:</b> Robust applications and secure server-side solutions.
+    - <b>Programming:</b> MATLAB, Python, C/C++, Java, SQL, JavaScript, Git, Bash.
+    - <b>Soft Skills:</b> Problem-Solving, Collaboration, Adaptability, Critical Thinking, Time Management.
 
 - title: Languages
   type: list
@@ -85,9 +77,7 @@
     - Spanish - Native
     - English - Advanced (C1 Cambridge Level)
 
-- title: Hobbies
+- title: Other Interests
   type: list
   contents:
-    - Playing the guitar
-    - Skiing
-    - Reading about cosmology, physics, history, and fantasy literature
+    - <u>Hobbies:</u> Playing the guitar, skiing, reading about cosmology, physics, history, and fantasy literature.
