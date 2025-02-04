@@ -4,7 +4,7 @@ title: Sentiment Analysis Using RNNs with and without Attention
 description: Comparing two RNN architectures for sentiment analysis on financial news data.
 img: assets/img/header_RNN_attention.png  # Update this with your header image path
 importance: 1
-category: ML/IA
+category: Machine Learning
 related_publications: false
 ---
 
