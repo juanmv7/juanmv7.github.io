@@ -4,7 +4,7 @@ title: Calibration of Convolutional Neural Networks (CNNs) using Temperature Sca
 description: Exploring the calibration of CNNs through temperature scaling to improve model reliability in binary classification tasks.
 img: assets/img/header_CNN_calibration.png  # Update this with your header image path
 importance: 1
-category: ML/IA
+category: Machine Learning
 related_publications: false
 pdf_link: /assets/pdf/CNN_calibration.pdf  # Place the project report in assets/pdf
 ---
@@ -185,5 +185,8 @@ This project was carried out in collaboration with [Elena Almagro](https://www.l
 ## Full Report
 You can download the complete report document via the following link:
 
-[Download Full Report PDF]({{ page.pdf_link }})
+[Download Full Report PDF]({{ page.pdf_link }})S
 
+---
+## GitHub Repository
+You can find the Python notebook for this project, with its results and the whole process on [GitHub](https://github.com/mariogolbano/CNNs_calibration)

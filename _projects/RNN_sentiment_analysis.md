@@ -183,3 +183,6 @@ Observing these results, we can conclude:
 This project was carried out in collaboration with [Elena Almagro](https://www.linkedin.com/in/elena-almagro-azor-a06942217/) and [Mario Golbano](https://www.linkedin.com/in/mario-golbano-corzo/).
 
 ---
+
+## GitHub Repository
+You can find the Python notebooks and pre-trained models for this project on [GitHub](https://github.com/mariogolbano/RNN_setiment_analysis_with_Attention).
